@@ -1,0 +1,28 @@
+.header-menu {
+  display: none;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.menu-icon-close {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 100%;
+    height: 10rem;
+    background-color: var(--purple-bg);
+  }
+
+  .header {
+    display: none;
+  }
+} ;

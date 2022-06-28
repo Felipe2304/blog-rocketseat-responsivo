@@ -1,0 +1,27 @@
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.info-wrapper-post-footer {
+  width: 37rem;
+}
+
+.info-wrapper-post-footer img {
+  margin-bottom: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container-footer {
+    flex-wrap: wrap;
+  }
+  .info-wrapper-post-footer {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .info-wrapper-post-footer img {
+    width: 100%;
+  }
+}

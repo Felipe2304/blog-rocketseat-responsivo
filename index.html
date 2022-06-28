@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/var.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="stylesheet" href="./src/styles/headerConatiner/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./src/styles/headerConatiner/headerResponsive.css"
+    />
+    <link rel="stylesheet" href="./src/styles/menuOpen/menuOpen.css" />
+    <link rel="stylesheet" href="./src/styles/headerMenu/headerMenu.css" />
+    <link
+      rel="stylesheet"
+      href="./src/styles/containerContentCenter/containerContentCenter.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./src/styles/containerFooter/containerFooter.css"
+    />
+    <title>Rocket-blog</title>
+  </head>
+  <body>
+    <!-- mobile -->
+    <header class="header-menu">
+      <div class="menu-toggle">
+        <img
+          src="./src/assets/menu.png"
+          alt="menu"
+          class="menu-icon menu-icon-open"
+        />
+        <img
+          src="./src/assets/close.png"
+          alt=""
+          class="menu-icon menu-icon-close"
+        />
+      </div>
+
+      <img src="./src/assets/logo.svg" alt="logo" />
+    </header>
+
+    <section class="menu-open">
+      <nav class="header-nav header-nav-open">
+        <ul class="header-list header-list-open">
+          <li class="header-list-item header-list-item-open">Home</li>
+          <li class="header-list-item header-list-item-open">Sobre</li>
+          <li class="header-list-item header-list-item-open">Categorias</li>
+          <li class="header-list-item header-list-item-open">Contato</li>
+        </ul>
+      </nav>
+    </section>
+    <!-- mobile -->
+
+    <!-- desktop -->
+    <main class="main-container">
+      <section class="header-container">
+        <div class="header-container-center">
+          <header class="header">
+            <div class="logo">
+              <img src="./src/assets/logo.svg" alt="logo" />
+            </div>
+
+            <nav class="header-nav">
+              <ul class="header-list">
+                <li class="header-list-item">Home</li>
+                <li class="header-list-item">Sobre</li>
+                <li class="header-list-item">Categorias</li>
+                <li class="header-list-item">Contato</li>
+              </ul>
+            </nav>
+
+            <form action="#">
+              <div class="search-box">
+                <input
+                  type="text"
+                  class="search-box-input"
+                  placeholder="Buscar"
+                />
+                <button class="search-box-button">
+                  <img
+                    src="./src/assets/search.svg"
+                    alt="icone de pesquisa"
+                    class="serach-box-img"
+                  />
+                </button>
+              </div>
+            </form>
+          </header>
+
+          <div class="header-content">
+            <!-- search-box-mobile -->
+
+            <form action="#">
+              <div class="search-box search-box-mobile">
+                <input
+                  type="text"
+                  class="search-box-input search-box-input-mobile"
+                  placeholder="Buscar"
+                />
+                <button class="search-box-button search-box-button-mobile">
+                  <img
+                    src="./src/assets/search.svg"
+                    alt="icone de pesquisa"
+                    class="serach-box-img serach-box-img-mobile"
+                  />
+                </button>
+              </div>
+            </form>
+            <!-- search-box-mobile -->
+
+            <div class="header-content-info">
+              <h2 class="header-title">
+                Veja o guia definitivo para conquistar seus objetivos como DEV
+                em 2022
+              </h2>
+
+              <p class="info-header">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
+                nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit
+                vitae, sed tristique placerat hac.
+              </p>
+
+              <div class="see-more">
+                <span class="see-more-text">veja mais</span>
+                <img
+                  src="./src/assets/arrow-right.svg"
+                  alt="seta de veja mais"
+                />
+              </div>
+            </div>
+
+            <div class="header-content-img">
+              <img
+                src="./src/assets/featured-image.png"
+                alt="imagem de código"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="division"></div>
+
+      <!-- ---------------------------------------- -->
+
+      <div class="container-content">
+        <section class="container-content-center">
+          <div class="info-wrapper-post">
+            <img src="./src/assets/post-1.png" alt="post" />
+            <span class="date-text">janeiro 04,2022</span>
+
+            <h3 class="info-sub-title">Começando no ReactJS em 2022</h3>
+
+            <p class="info-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique nibh nibh eu in aliquet ut adipiscing neque. Sed
+              volutpat aenean sit vitae, sed tristique. Sed volutpat aenean.
+            </p>
+          </div>
+
+          <div class="info-wrapper-box">
+            <article class="info-wrapper">
+              <span class="date-text">Janeiro 04, 2022</span>
+
+              <h3 class="info-sub-title">
+                Conheça as principais técnicas para conseguir uma vaga
+                internacional em programação
+              </h3>
+
+              <p class="info-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
+                nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit
+                vitae, sed tristique.
+              </p>
+            </article>
+
+            <hr />
+
+            <article class="info-wrapper">
+              <span class="date-text">Janeiro 04, 2022</span>
+
+              <h3 class="info-sub-title">
+                Veja a evolução do Front-end na prática
+              </h3>
+
+              <p class="info-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
+                nibh eu in aliquet ut adipiscing neque.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="container-footer">
+          <div class="info-wrapper-post-footer">
+            <img src="./src/assets/post-2.png" alt="post-2" />
+
+            <span class="date-text">Janeiro 04, 2022</span>
+
+            <h3 class="info-sub-title">
+              10 dicas para conseguir a vaga desejada
+            </h3>
+
+            <p class="info-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+          </div>
+
+          <div class="info-wrapper-post-footer">
+            <img src="./src/assets/post-3.png" alt="post-3" />
+
+            <span class="date-text">Janeiro 04, 2022</span>
+
+            <h3 class="info-sub-title">
+              Deixe seu código mais semântico com essas dicas
+            </h3>
+
+            <p class="info-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+          </div>
+
+          <div class="info-wrapper-post-footer">
+            <img src="./src/assets/post-4.png" alt="post-4" />
+
+            <span class="date-text">Janeiro 04, 2022</span>
+
+            <h3 class="info-sub-title">
+              Use essas dicas nas suas aplicações mobile
+            </h3>
+
+            <p class="info-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- desktop -->
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>

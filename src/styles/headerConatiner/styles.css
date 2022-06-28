@@ -1,0 +1,141 @@
+.header-container {
+  height: 58rem;
+  width: 100%;
+  background-color: var(--purple-bg);
+}
+
+.header-container-center {
+  width: 100%;
+  max-width: 169.14rem;
+  padding: 0 10.5rem 6.9rem 10.5rem;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6.4rem 0;
+}
+
+.header-nav {
+  width: 34.8rem;
+}
+
+.header-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list-item {
+  text-decoration: none;
+  font-family: var(--roboto);
+  font-size: var(--text-header);
+  font-weight: 400;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.4rem;
+  width: 30rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.search-box-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.close-icon {
+  display: none;
+}
+
+.search-box:focus-within {
+  border: 1px solid var(--light-purple);
+}
+
+.search-box-input {
+  width: 75%;
+  height: 100%;
+  padding-left: 2.6rem;
+  background-color: var(--dark-bg);
+  border: 1px solid var(--dark-bg);
+  font-size: 1.4rem;
+  font-family: var(--roboto);
+  font-weight: 400;
+  color: var(--light-purple);
+  outline: none;
+}
+
+.search-box-button {
+  width: 24%;
+  border: none;
+  height: 100%;
+  background-color: var(--button-bg);
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.search-box-button:active {
+  transform: scale(95%);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content-info {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.header-title {
+  font-family: var(--poppins);
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: var(--button-bg);
+  margin-bottom: 1.6rem;
+  line-height: 50px;
+}
+
+.info-header {
+  font-family: var(--roboto);
+  font-size: var(--text-header);
+  font-weight: 400;
+  color: var(--light-purple);
+  margin-bottom: 2.4rem;
+  line-height: 30px;
+}
+
+.header-content-img {
+  width: 57rem;
+}
+.header-content-img img {
+  width: 100%;
+}
+.see-more {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.see-more-text {
+  font-family: var(--roboto);
+  font-size: var(--text-header);
+  font-weight: 700;
+  color: var(--button-bg);
+  margin-right: 0.8rem;
+  cursor: pointer;
+}
